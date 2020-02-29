@@ -41,7 +41,7 @@ class TwitterBot:
         bot.get('https://twitter.com/RealGrumpyCat')
         #bot.get('https://twitter.com/search?q=' + hashtag + '&src=typed_query')
         time.sleep(5)
-        #for i in range(1,3):
+        #for i in range(1,3): # how many times you'd want it to scroll
         #bot.execute_script('window.scrollTo(0,document.body.scrollHeight)')
         '''
         first way below needs a bit of tweeking, it scraps more info that needed
